@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+">
+    <bean id="firstrendrer" class="MyImplementation.FirstRenider" autowire="constructor"/>
+    <bean id="secondrendrer" class="MyImplementation.SecondReinder" autowire="constructor"/>
+    <bean id="firstprovider" class="MyImplementation.FirstProvider" />
+    <bean id="secondprovider" class="MyImplementation.SecondProvider" />
+    <bean id="thirdprovider" class="MyImplementation.ThirdProvider" />
+</beans>
